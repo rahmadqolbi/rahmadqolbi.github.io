@@ -1,0 +1,84 @@
+html {
+    position: relative;
+}
+body {
+    margin-bottom: 100px;
+    background-color:white;
+    margin-top: 40px;
+}
+
+/* classjumbotron */
+
+.jumbotron img {
+    width: 200px;
+    border: 4px solid blue;
+}
+.jumbotron img:hover {
+    box-shadow: 0 0 5px 10px white,
+                0 0 10px 20px white;
+    margin-left: 20px;
+}
+.jumbotron h1 {
+    font-family: serif;
+}
+/* class jumbotron */
+
+
+/* class about */
+
+hr {
+    width: 250px;
+    border: 2px solid #333;
+}
+section {
+    min-height: 100px;
+}
+
+/* akhir class about */
+
+
+
+
+.portfolio {
+    background-color:#eee;
+}
+
+.contact {
+    min-height: 800px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    padding-top: 30px;
+}
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+    /* em untuk mengecilkan huruf */
+}
+
+footer p i {
+    color: salmon;
+}
+li {
+    text-align: center;
+}
+li:hover {
+    background-color: green;
+}
+.col-sm-12 a {
+    text-decoration: none;
+}
+.col-sm-4 col-sm-offset-2{
+    font-family: serif;
+}
+
+
+
+
+
+/* catatan */
+/* navbar default itu putih, untuk menggantikan warna hitam diganti dengan inverse */
